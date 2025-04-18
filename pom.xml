@@ -7,6 +7,12 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
+  <properties>
+	<sonar.host.url>http://your-sonarqube-server:9000</sonar.host.url>
+    <sonar.login>your_sonarqube_user</sonar.login>
+    <sonar.password>your_sonarqube_password</sonar.password>
+
+  </properties>
 
 	<build>
 		<plugins>
